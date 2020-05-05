@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Site title -->
-    <title>Welcome to My Portfolio</title>
+    <title>ksatyarth2</title>
     <!-- Favicon -->
-    <link rel="shortcut icon"  href="assets/images/favicon1.ico">
+    <link rel="icon"  href="assets/images/favicon1.ico">
     <!-- Site css -->
     <link href="assets/css/main/homepages.css" rel="stylesheet">
     <link href="assets/css/main/skins/default_color.css" rel="stylesheet">
@@ -813,15 +813,15 @@
         //By Geek Site.in
 
 
-        // var message = "Right Click Disabled!";
+        var message = "Right Click Disabled!";
 
-        ///////////////////////////////////
-        // function clickIE4() {
-        //     if (event.button == 2) {
-        //         alert(message);
-        //         return false;
-        //     }
-        // }
+        /////////////////////////////////
+        function clickIE4() {
+            if (event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
 
         function clickNS4(e) {
             if (document.layers || document.getElementById && !document.all) {
