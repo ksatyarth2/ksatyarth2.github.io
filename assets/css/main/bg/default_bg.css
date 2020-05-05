@@ -308,8 +308,8 @@ body {
 /************************** 
 * Header Follow 
 ***************************/
-.header-follow p:after {
-  background-color: rgba(255, 255, 255, 0.1); }
+.header-follow p:after, .header-follow-2 p:after {
+  background-color: rgba(255, 255, 255, 0.408); }
 
 /************************** 
 * Footer

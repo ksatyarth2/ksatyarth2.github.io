@@ -3017,7 +3017,7 @@ span#typed-slide-1 {
       .header-follow ul li:hover {
         transform: scale(1.5, 1.5); }
   .header-follow p {
-    top: 70px;
+    top: 30px;
     left: -24px;
     width: 68px;
     height: 20px;
@@ -3033,14 +3033,40 @@ span#typed-slide-1 {
     font-weight: 500;
     font-size: 14px; }
     .header-follow p:after {
-      top: 9px;
-      right: -51px;
-      width: 40px;
+      top: 10px;
+      right: 102px;
+      width: 190px;
       height: 1px;
       content: "";
       display: block;
       position: absolute; }
 
+
+      .header-follow-2 p {
+        top: 320px;
+        left: 1370px;
+        width: 68px;
+        height: 20px;
+        line-height: 1.2;
+        white-space: nowrap;
+        position: fixed;
+        transform: rotate(90deg);
+        margin: 0;
+        font-family: "Saira";
+        letter-spacing: 0.5px;
+        color: #9da1a5;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 14px; }
+        .header-follow-2 p:after {
+          top: 11px;
+          right: -344px;
+          width: 166px;
+          height: 1px;
+          content: "";
+          display: block;
+          position: absolute; }
+    
 /************************** 
 * Swiper slide
 ***************************/
