@@ -827,7 +827,7 @@ a:focus,
               z-index: 100093;
               position: absolute;
               right: 0;
-              top: -10px;
+              top: 10px;
               border-radius: 100px; }
               .navbar-wrapper .navfixed .container .fullcontainer .row .col-md-12 .iconfix .cd-nav-trigger:before, .navbar-wrapper .navfixed .container .fullcontainer .row .col-md-12 .iconfix .cd-nav-trigger:after {
                 position: absolute;
@@ -3042,9 +3042,30 @@ span#typed-slide-1 {
       position: absolute; }
 
 
+      .header-follow-2 {
+        /* top: 50%;
+        left: 30px;
+        width: 20px;
+        height: 200px; */
+        top: 320px;
+        right: 0px;
+        width: 68px;
+        height: 20px;
+        position: fixed;
+        margin-top: -100px;
+        z-index: 99; }
+        @media (max-width: 767px) {
+          .header-follow-2 {
+            display: none; } }
+        @media (min-width: 768px) and (max-width: 991px) {
+          .header-follow-2 {
+            display: none; } }
+        @media (min-width: 992px) and (max-width: 1199px) {
+          .header-follow-2 {
+            display: none; } }
+
       .header-follow-2 p {
         top: 320px;
-        left: 1370px;
         width: 68px;
         height: 20px;
         line-height: 1.2;
